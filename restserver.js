@@ -330,6 +330,11 @@ router.route('/devices/:id')
 					} else {
 						console.log("Device is already registered.");
 						console.log("Returning JSON configuration data..." + JSON.stringify(row) );
+						
+						// Update the lastseen time.
+						var currdate = new Date();
+						db.run("UPDATE devices SET lastseen='" + currdate + "' WHERE deviceid='" + req.params.id + "'");
+
 						res.json( row );
 					}
             		}
