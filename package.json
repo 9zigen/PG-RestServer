@@ -1,0 +1,11 @@
+{
+  "name": "restserver",
+  "description": "REST API for phantGraphs and device provisioning",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">= 4.0",
+    "cors"   : ">= 2.7",
+    "body-parser": ">= 1.14"
+  }
+}
+
