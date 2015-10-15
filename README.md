@@ -15,6 +15,10 @@ and contains most certain unknow and deadly bugs...
 
 # How to use
 Just clone the repository, and at the root execute npm install to install modules dependencies.
+
+To install node-sqlite3 execute the following command: 
+ npm install https://github.com/mapbox/node-sqlite3/tarball/master
+
 To run, use node restserver.js.
 
 # To test
@@ -24,10 +28,10 @@ Use Firefox plugin HTTPRequester.
 
 The API is available at the URL  http://localhost:3000/api
 
-http://localhost:3000/api/phantservers -> Manages Phant servers configuration
-http://localhost:3000/api/phantstreams -> Manages Phant data streams
-http://localhost:3000/api/phantgraphs  -> Manages Phant graphs types
-http://localhost:3000/api/config       -> Configuration data for the front end application
+* http://localhost:3000/api/phantservers -> Manages Phant servers configuration
+* http://localhost:3000/api/phantstreams -> Manages Phant data streams
+* http://localhost:3000/api/phantgraphs  -> Manages Phant graphs types
+* http://localhost:3000/api/config       -> Configuration data for the front end application
 
 And for device provisioning:
 
