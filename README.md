@@ -22,7 +22,7 @@ To install node-sqlite3 execute the following command:
 To run, use node restserver.js.
 
 # To test
-Use Firefox plugin HTTPRequester.
+Use Firefox plugin HTTPRequester to test the API.
 
 #API available
 
